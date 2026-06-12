@@ -32,6 +32,7 @@ lib/
 ├── core/            # Core configuration, networking, themes, and shared utilities
 ├── features/        # Feature-based modular structure
 │   ├── auth/        # Authentication layer (Data, Domain, Presentation)
+│   ├── booking/ 
 │   └── dashboard/   # Dashboards and notifications logic
 ├── injection_container.dart # Service Locator (get_it) setup
 └── main.dart        # Entry point of the application
