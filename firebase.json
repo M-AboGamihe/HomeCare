@@ -1,0 +1,50 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "cure-home-care",
+          "appId": "1:207511953360:android:1bedcba3060c4780e663d5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "cure-home-care",
+          "configurations": {
+            "android": "1:207511953360:android:1bedcba3060c4780e663d5",
+            "ios": "1:207511953360:ios:dc6ecdf3eedc278be663d5",
+            "macos": "1:207511953360:ios:dc6ecdf3eedc278be663d5",
+            "web": "1:207511953360:web:82e93e6033d61a3ae663d5",
+            "windows": "1:207511953360:web:0823a6eddc4c02dfe663d5"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "functions_code",
+      "codebase": "functions",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

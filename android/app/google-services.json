@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "207511953360",
+    "project_id": "cure-home-care",
+    "storage_bucket": "cure-home-care.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207511953360:android:1bedcba3060c4780e663d5",
+        "android_client_info": {
+          "package_name": "com.example.cure_home_care"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsZq5evKt43-RTfQ5WesRo6deWpVj-tJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
