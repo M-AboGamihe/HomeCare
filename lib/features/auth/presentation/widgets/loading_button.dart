@@ -19,9 +19,7 @@ class LoadingButton extends StatelessWidget {
       height: 50,
       child: ElevatedButton(
         onPressed: isLoading ? null : onPressed,
-        child: isLoading
-            ? const CircularProgressIndicator()
-            : Text(text),
+        child: isLoading ? const CircularProgressIndicator() : Text(text),
       ),
     );
   }

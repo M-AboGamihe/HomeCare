@@ -14,7 +14,9 @@ class RetryInterceptor extends Interceptor {
 
   @override
   Future<void> onError(
-      DioException err, ErrorInterceptorHandler handler) async {
+    DioException err,
+    ErrorInterceptorHandler handler,
+  ) async {
     int retries = err.requestOptions.extra['retries'] ?? 0;
 
     if (_shouldRetry(err) && retries < maxRetries) {

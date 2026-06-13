@@ -114,7 +114,8 @@ class BookingRemoteDataSourceImpl implements BookingRemoteDataSource {
       tx.set(notificationRef, {
         'userId': userId,
         'title': 'Booking Confirmed!',
-        'body': 'Your booking has been successfully placed. We will see you soon.',
+        'body':
+            'Your booking has been successfully placed. We will see you soon.',
         'createdAt': FieldValue.serverTimestamp(),
       });
     });
