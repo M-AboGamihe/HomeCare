@@ -1,7 +1,8 @@
-import '../bloc/booking/booking_bloc.dart';
-import 'review_booking_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../bloc/booking/booking_bloc.dart';
+import 'review_booking_screen.dart';
 
 class NotesScreen extends StatefulWidget {
   const NotesScreen({super.key});

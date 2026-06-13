@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:home_care/features/booking/presentation/bloc/booking/booking_bloc.dart';
-import 'package:home_care/features/booking/presentation/screens/booking_details_screen.dart';
+import '../bloc/booking/booking_bloc.dart';
+import '../screens/booking_details_screen.dart';
 import 'package:intl/intl.dart';
 
 BlocBuilder<BookingBloc, BookingState> myBookingView() {

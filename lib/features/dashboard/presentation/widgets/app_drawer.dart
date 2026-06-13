@@ -1,5 +1,5 @@
-import 'package:home_care/features/booking/presentation/screens/booking_services_screen.dart';
-import 'package:home_care/features/booking/presentation/screens/my_bookings_screen.dart';
+import '../../../booking/presentation/screens/booking_services_screen.dart';
+import '../../../booking/presentation/screens/my_bookings_screen.dart';
 
 import '../../../auth/presentation/bloc/auth_bloc/auth_bloc.dart';
 import '../../../auth/presentation/bloc/auth_bloc/auth_event.dart';
@@ -56,9 +56,7 @@ Widget appDrawer(BuildContext context) {
                 Navigator.pop(context);
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder: (_) => const MyBookingsScreen(),
-                  ),
+                  MaterialPageRoute(builder: (_) => const MyBookingsScreen()),
                 );
               },
             ),

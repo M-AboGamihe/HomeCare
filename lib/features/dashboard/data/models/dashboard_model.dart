@@ -1,4 +1,4 @@
-import 'package:home_care/features/booking/data/mappers/booking_mapper.dart';
+import '../../../booking/data/mappers/booking_mapper.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import '../../domain/entities/dashboard_entity.dart';
 import '../../../booking/data/models/booking_model.dart';

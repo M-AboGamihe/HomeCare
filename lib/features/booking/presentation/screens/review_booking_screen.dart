@@ -1,12 +1,12 @@
-import '../bloc/booking/booking_bloc.dart';
-import '../widgets/dialog_success.dart';
-import '../../../dashboard/presentation/screens/dashboard_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../../dashboard/presentation/screens/dashboard_screen.dart';
 import '../../domain/entities/service_entity.dart';
 import '../../domain/entities/slot_entity.dart';
+import '../bloc/booking/booking_bloc.dart';
+import '../widgets/dialog_success.dart';
 
 class ReviewBookingScreen extends StatefulWidget {
   const ReviewBookingScreen({super.key});

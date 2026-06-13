@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:home_care/features/booking/presentation/widgets/my_booking_view.dart';
+import '../widgets/my_booking_view.dart';
 import '../bloc/booking/booking_bloc.dart';
 
 class MyBookingsScreen extends StatefulWidget {
