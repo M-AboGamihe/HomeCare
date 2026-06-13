@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/images/splash.png" alt="Cure Home Care Logo" width="150">
 
-## 🎥 App Demonstration
+## App Demonstration
 
 Check out the full app experience in our demo video:
 
