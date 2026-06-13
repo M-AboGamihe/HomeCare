@@ -57,6 +57,11 @@ With a beautiful UI, smooth animations, and a responsive layout powered by `flut
 | <img src="assets/app_images/book_screen.jpg" width="220"> | <img src="assets/app_images/booked_screen.jpg" width="220"> | <img src="assets/app_images/booked_detail.jpg" width="220"> |
 
 
+## 🎥 VideoLink
+
+https://drive.google.com/file/d/1Zw34p-Mc_BBcN1eGGMfQFteEnersFG7_/view?usp=drive_link
+
+
 ## 🏗️ Architecture
 
 Cure Home Care follows the **Clean Architecture** principles, separating concerns into strictly defined layers to ensure maintainability, scalability, and testability. State management is handled robustly using the **BLoC (Business Logic Component)** pattern along with `Freezed` for immutable states.
